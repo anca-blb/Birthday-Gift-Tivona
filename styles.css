@@ -1,0 +1,117 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(rgba(129,126,255,1) 32%, rgba(0,255,158,1) 92%);
+    color: black;
+    margin: 0;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #00ff9e;
+    margin-bottom: 10px;
+    background-image: url("images/tivi.jpg");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+
+#bff-img:hover {
+   background-image: url("images/alien.gif");
+   background-size: cover;
+}
+
+#bday-age {
+    background: #00ff9e;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #00ff9e;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/bck.gif");
+    background-size: 350px 350px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #817eff;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid black;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media.giphy.com/media/qcngMWgXh4SiY/giphy-downsized-large.gif");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/scary.gif");
+}
+
+#gift-img-alien-flower:hover {
+    background-image: url("images/alien-flower.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/bff.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+}
+
+#gift-img-baby-alien:hover {
+    background-image: url("images/baby-alien.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: green;
+}
