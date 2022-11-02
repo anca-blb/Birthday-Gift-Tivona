@@ -40,6 +40,10 @@ h1, h2, h3, h4, p {
     border-radius: 5px;
 }
 
+#audio {
+    margin-top: 15px;
+}
+
 #header {
     display: flex;
     flex-direction: column;
